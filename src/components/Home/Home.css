@@ -1,0 +1,17 @@
+.home {
+  background: url("../../asset/images/z.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 200px 0 0 200px;
+}
+
+.welcome {
+  width: 42%;
+  background: linear-gradient(to right, #523ca2, #c07d19);
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 700;
+}

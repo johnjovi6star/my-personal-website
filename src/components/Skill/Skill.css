@@ -1,0 +1,19 @@
+.skill {
+  background: url("../../asset/images/2.jpg");
+  background-size: cover;
+  background-position: top center;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background: url("../../asset/images/2.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  border-radius: 100px;
+  width: 80%;
+  text-align: center;
+  padding-top: 90px;
+  margin-top: -25px;
+}
