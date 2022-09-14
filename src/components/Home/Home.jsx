@@ -65,7 +65,7 @@ const Home = () => {
               <a href="#ig" className="m-2">
                 <BsGithub />
               </a>
-              <a href="#ig">
+              <a href="#ig" id="skill">
                 <BsInstagram />
               </a>
             </div>
