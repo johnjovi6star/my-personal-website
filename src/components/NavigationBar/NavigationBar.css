@@ -3,6 +3,7 @@ nav.navbar {
   position: fixed;
   width: 100%;
   transition: 0.32s ease-in-out;
+  z-index: 1;
 }
 
 nav.navbar.scrolled {

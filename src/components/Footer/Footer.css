@@ -1,0 +1,5 @@
+footer {
+  background: linear-gradient(to left, #463387, black);
+  display: flex;
+  justify-content: center;
+}

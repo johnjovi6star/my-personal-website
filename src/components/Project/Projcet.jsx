@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "./Project.css";
-import html from "../../asset/images/html.png";
-import css from "../../asset/images/css.png";
-import js from "../../asset/images/js.png";
+import project1 from "../../asset/images/project-1.jpg";
+import project2 from "../../asset/images/project-5.jpg";
+import project3 from "../../asset/images/project-3.jpg";
 
 const Project = () => {
   return (
@@ -12,32 +12,32 @@ const Project = () => {
       <Container>
         <Row>
           <Col>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={html} />
+            <Card style={{ width: "22rem" }} bg="dark">
+              <Card.Img src={project1} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
-                <Button variant="dark">Demo</Button>
+                <Button variant="light">Demo</Button>
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={css} />
+            <Card style={{ width: "22rem" }} bg="dark">
+              <Card.Img src={project2} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
-                <Button variant="dark">Demo</Button>
+                <Button variant="light">Demo</Button>
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={js} />
+            <Card style={{ width: "22rem" }} bg="dark">
+              <Card.Img src={project3} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>Some quick example text to build on the card title and make up the bulk of the card's content.</Card.Text>
-                <Button variant="dark">Demo</Button>
+                <Button variant="light">Demo</Button>
               </Card.Body>
             </Card>
           </Col>
