@@ -2,7 +2,7 @@
   background: url("../../asset/images/2.jpg");
   background-size: cover;
   background-position: top center;
-  padding-bottom: 200px;
+  padding-bottom: 120px;
   display: flex;
   justify-content: center;
 }
@@ -24,4 +24,19 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .skill {
+    padding-bottom: 150px;
+  }
+
+  .box {
+    border-radius: 80px;
+    width: 90%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-top: 100px;
+  }
 }

@@ -10,11 +10,11 @@ const Contact = () => {
         <Row>
           <Col>
             <div>
-              <img src={contact} alt="" width="432px" />
+              <img id="image-contact" src={contact} alt="" width="432px" />
             </div>
           </Col>
           <Col>
-            <h2>Contact</h2>
+            <h2 className="mb-4 pb-2">Contact Me</h2>
             <form name="submit-to-google-sheet">
               <div className="mb-3">
                 <label for="name" className="form-label">

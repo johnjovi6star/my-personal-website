@@ -11,7 +11,7 @@ const Project = () => {
       <h2 className="mb-5">Project</h2>
       <Container>
         <Row>
-          <Col>
+          <Col md={4}>
             <Card style={{ width: "22rem" }} bg="dark">
               <Card.Img src={project1} />
               <Card.Body>
@@ -21,7 +21,7 @@ const Project = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col md={4} className="cards">
             <Card style={{ width: "22rem" }} bg="dark">
               <Card.Img src={project2} />
               <Card.Body>
@@ -31,7 +31,7 @@ const Project = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col md={4}>
             <Card style={{ width: "22rem" }} bg="dark">
               <Card.Img src={project3} />
               <Card.Body>

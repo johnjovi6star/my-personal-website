@@ -1,11 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { BsJustify, BsReverseBackspaceReverse } from "react-icons/bs";
 import "./NavigationBar.css";
 
 const NavigationBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
+  const [barClicked, setBarClicked] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -23,6 +25,14 @@ const NavigationBar = () => {
     setActiveLink(value);
   };
 
+  const showNavbar = () => {
+    setBarClicked(true);
+  };
+
+  const closeNavbar = () => {
+    setBarClicked(false);
+  };
+
   return (
     <div>
       <Navbar variant="dark" className={scrolled ? "scrolled" : ""}>
@@ -32,7 +42,8 @@ const NavigationBar = () => {
               Jovi<span className="text-warning">.</span>
             </h3>
           </Navbar.Brand>
-          <Nav className="col-4">
+
+          <Nav className={barClicked ? "active mobile-navbar" : "mobile-navbar"}>
             <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>
               Home
             </Nav.Link>
@@ -45,7 +56,13 @@ const NavigationBar = () => {
             <Nav.Link href="#contact" className={activeLink === "contact" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("contact")}>
               Contact
             </Nav.Link>
+            <div id="quit">
+              <BsReverseBackspaceReverse onClick={() => closeNavbar()} />
+            </div>
           </Nav>
+          <div id="mobile">
+            <BsJustify onClick={() => showNavbar()} />
+          </div>
         </Container>
       </Navbar>
     </div>

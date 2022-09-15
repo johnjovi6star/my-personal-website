@@ -34,7 +34,7 @@ const Skill = () => {
                   <Carousel.Caption>Javascript</Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={2000}>
-                  <img src={react} className="pb-5 mb-3" alt="ReactJS" width="381px" />
+                  <img id="image-react" src={react} className="pb-5 mb-3" alt="ReactJS" width="157px" />
                   <Carousel.Caption>React JS</Carousel.Caption>
                 </Carousel.Item>
               </Carousel>

@@ -2,3 +2,9 @@
   height: 100vh;
   background: linear-gradient(to left, #463387, black);
 }
+
+@media only screen and (max-width: 600px) {
+  #image-contact {
+    width: 350px;
+  }
+}

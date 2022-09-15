@@ -54,24 +54,26 @@ const Home = () => {
       <Container>
         <Row>
           <Col>
-            <div className="welcome">Welcome To My Portfolio</div>
-            <h2>I am {text}</h2>
-            <p>A person who is really passionate about science and technology</p>
-            <Button variant="dark">Download CV</Button>
-            <div className="my-3 mx-1">
-              <a href="#ig">
-                <BsLinkedin />
-              </a>
-              <a href="#ig" className="m-2">
-                <BsGithub />
-              </a>
-              <a href="#ig" id="skill">
-                <BsInstagram />
-              </a>
+            <div className="mobile-box">
+              <div className="welcome">Welcome To My Portfolio</div>
+              <h2>I am {text}</h2>
+              <p>A person who is really passionate about science and technology</p>
+              <Button variant="dark">Download CV</Button>
+              <div className="my-3 mx-1">
+                <a href="#ig">
+                  <BsLinkedin />
+                </a>
+                <a href="#ig" className="m-2">
+                  <BsGithub />
+                </a>
+                <a href="#ig" id="skill">
+                  <BsInstagram />
+                </a>
+              </div>
             </div>
           </Col>
           <Col>
-            <img src={Image2} alt="Image2" width="400px" />
+            <img className="img" src={Image2} alt="Image2" width="400px" />
           </Col>
         </Row>
       </Container>
