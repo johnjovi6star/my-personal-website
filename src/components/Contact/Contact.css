@@ -3,8 +3,20 @@
   background: linear-gradient(to left, #463387, black);
 }
 
+#image-contact {
+  margin-top: 20px;
+  margin-left: -50px;
+}
+
 @media only screen and (max-width: 600px) {
   #image-contact {
     width: 350px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-contact {
+    display: flex;
+    flex-direction: column;
   }
 }

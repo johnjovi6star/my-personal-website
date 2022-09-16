@@ -3,3 +3,7 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+footer > p {
+  padding-top: 120px;
+}

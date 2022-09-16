@@ -10,9 +10,9 @@ const Project = () => {
     <div className="project" id="project">
       <h2 className="mb-5">Project</h2>
       <Container>
-        <Row>
+        <Row className="mobile-cards">
           <Col md={4}>
-            <Card style={{ width: "22rem" }} bg="dark">
+            <Card style={{ width: "auto" }} bg="dark">
               <Card.Img src={project1} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -22,7 +22,7 @@ const Project = () => {
             </Card>
           </Col>
           <Col md={4} className="cards">
-            <Card style={{ width: "22rem" }} bg="dark">
+            <Card style={{ width: "auto" }} bg="dark">
               <Card.Img src={project2} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -32,7 +32,7 @@ const Project = () => {
             </Card>
           </Col>
           <Col md={4}>
-            <Card style={{ width: "22rem" }} bg="dark">
+            <Card style={{ width: "auto" }} bg="dark">
               <Card.Img src={project3} />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>

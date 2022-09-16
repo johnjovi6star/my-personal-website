@@ -13,3 +13,23 @@
     margin: 20px 0;
   }
 }
+@media only screen and (max-width: 768px) {
+  .mobile-cards {
+    padding: auto;
+  }
+
+  .cards {
+    margin: 40px 0;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .mobile-cards {
+    display: flex;
+    flex-direction: column;
+    padding: 0 180px;
+  }
+  .cards {
+    margin: 40px 0;
+  }
+}

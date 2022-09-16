@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="contact d-flex flex-column justify-content-center align-items-center" id="contact">
       <Container>
-        <Row>
+        <Row className="mobile-contact">
           <Col>
             <div>
               <img id="image-contact" src={contact} alt="" width="432px" />

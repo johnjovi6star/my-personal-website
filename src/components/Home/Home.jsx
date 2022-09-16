@@ -52,7 +52,7 @@ const Home = () => {
   return (
     <div className="home" id="home">
       <Container>
-        <Row>
+        <Row className="mobile-row">
           <Col>
             <div className="mobile-box">
               <div className="welcome">Welcome To My Portfolio</div>
